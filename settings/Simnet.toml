@@ -1,0 +1,22 @@
+# Test-only accounts for the Clarinet SDK simnet (used by `npm test`).
+# These mnemonics are PUBLIC, well-known test values with no real funds
+# behind them — never reuse them for a real deployment.
+
+[network]
+name = "simnet"
+
+[accounts.deployer]
+mnemonic = "act atom narrow fruit luxury stock diagram expose obey hood brain pear client truly apple buzz fun napkin actor silly salmon speed special side"
+balance = 100_000_000_000_000
+
+[accounts.wallet_1]
+mnemonic = "skirt novel pause balance aim picture leg idea swamp ladder equip runway duty scissors sure enable quantum group amused diary month swear swamp discover"
+balance = 100_000_000_000_000
+
+[accounts.wallet_2]
+mnemonic = "exchange expire sniff mean salt chalk off hole salmon moon found divert pilot animal chase today wool planet equal stone silver divert movie patch"
+balance = 100_000_000_000_000
+
+[accounts.wallet_3]
+mnemonic = "rent alone affair first debate people swap phrase unhappy hurdle matrix guitar gaze loud symptom corn patch grocery sun stone never vote liar round"
+balance = 100_000_000_000_000

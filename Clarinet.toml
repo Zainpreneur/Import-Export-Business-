@@ -1,0 +1,15 @@
+[project]
+name = "import-export-business"
+description = "On-chain import/export business model: parties, products, orders and shipment tracking"
+authors = []
+telemetry = false
+cache_dir = ".cache"
+requirements = []
+
+[contracts.import-export]
+path = "contracts/import-export.clar"
+clarity_version = 3
+epoch = 3.0
+
+[repl.analysis]
+passes = ["check_checker"]

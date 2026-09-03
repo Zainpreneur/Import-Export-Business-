@@ -1,0 +1,24 @@
+# Accounts for a local Clarinet devnet (`clarinet devnet start`).
+# These are throwaway, publicly-known test mnemonics with no real funds
+# behind them. Generate your own with `clarinet new` / a wallet before
+# deploying anywhere that matters.
+
+[network]
+name = "devnet"
+deployment_fee_rate = 10
+
+[accounts.deployer]
+mnemonic = "security tiger guitar concert enjoy song fine pumpkin smile path twelve desert spray wolf order tornado book message reflect embody clog oyster chapter lecture"
+balance = 100_000_000_000_000
+
+[accounts.wallet_1]
+mnemonic = "demise coyote genuine outside dragon general aisle logic beach business evidence loud deer usual acoustic comfort kind pave round fashion memory alarm correct never"
+balance = 100_000_000_000_000
+
+[accounts.wallet_2]
+mnemonic = "wisdom rescue thank tennis diesel fold poem absent purchase prefer kitchen pitch mango spider peasant author chief pill color permit tomorrow pear raccoon also"
+balance = 100_000_000_000_000
+
+[accounts.wallet_3]
+mnemonic = "cruise series wet thank ship detail sort spin bag balcony arrange super chapter rifle solution upper give cruel mercy broom tell submit measure teach"
+balance = 100_000_000_000_000
